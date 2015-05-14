@@ -2,7 +2,6 @@
 
 ##概述
 新浪云存储Android平台SDK为第三方应用提供了简单易用的API调用服务，使第三方客户端无需了解复杂的验证机制即可进行授权、上传、下载等文件操作。您可以通过**Maven**进行构建本项目。
->本文档详细内容请查阅：[SinaStorage’s documentation](http://open.sinastorage.com/)
 
 ##SDK 环境要求
 
@@ -24,7 +23,6 @@
 		AWSCredentials credentials = new BasicAWSCredentials(accessKey, secretKey);
 		SCS conn = new SCSClient(credentials);
 
-> 获取[access_key,secret_key](http://open.sinastorage.com/?c=doc&a=guide&section=quick_start#accesskey)
 
 ###2.bucket 操作:
 
@@ -375,4 +373,3 @@
 		}
 	
 	
-For more detailed documentation, refer [here](http://http://open.sinastorage.com/)
